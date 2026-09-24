@@ -6,15 +6,22 @@ I build game prototypes and community tools, and document the design decisions b
 
 | Project | Design / technical focus | Current stage |
 | --- | --- | --- |
-| [DASHER](https://github.com/Lloydhf/Dasher) | Roblox parkour, route choice, retry cost and cosmetic progression | Playable Studio project |
-| [Unity Movement Lab](https://github.com/Lloydhf/unity-movement-lab) | 3D movement, jumps and level blockouts | Learning prototype |
+| [DASHER: Ascent](https://github.com/Lloydhf/Dasher) | Three tower courses, Updraft movement, alternate routes and recoverable falls | Ascent 0.5 · playable Studio project |
+| [SHIFT / Unity Movement Lab](https://github.com/Lloydhf/unity-movement-lab) | Heavy/light robot movement and traversal puzzles, alongside earlier movement and POLAR RELAY prototypes | Playable Windows prototype and Unity source |
 | [Game Design Research](https://github.com/Lloydhf/game-design-research) | Teaching the first five minutes of a parkour game | Literature-based essay and proposed pilot |
 | [Swiz Community Bot](https://github.com/Lloydhf/swiz-community-bot) | Tickets, event rosters and reliable community workflows | Source with offline tests |
 | [Valorant Community Bot](https://github.com/Lloydhf/valorant-community-bot) | Player statistics, progress feedback and API reliability | Source with offline tests |
 
 ## How to explore this portfolio
 
-Start with DASHER's gameplay and design notes, then the Unity blockout. The research repository connects a design question to a testable study plan. The bots show supporting work on user interactions, persistence and failure handling.
+Start with DASHER's gameplay and design notes, then try SHIFT's Windows prototype. The Unity repository also preserves the earlier movement lessons and POLAR RELAY prototype. The research repository connects an onboarding question to a testable study plan; participant testing is still pending. The bots show supporting work on user interactions, persistence and failure handling.
+
+## Recent work · September 2026
+
+- **DASHER: Ascent 0.5:** Helix, Canopy and Reactor towers; Updraft movement; a garden atrium; voting, spectating and cosmetic progression.
+- **SHIFT:** a robot that switches between heavy and light forms, with two SHIFT levels and documented PlayMode checks.
+- **Swiz:** faster acknowledgement of active-member requests, with a text attachment for long member lists and regression tests.
+- **Research:** a literature-based essay, pilot protocol and reproducible analysis, with implemented prototypes available as potential testbeds. No participant results are claimed.
 
 **Tools in these projects:** Roblox Studio / Luau · Unity / C# · Node.js / JavaScript · SQLite · Python.
 
@@ -26,6 +33,6 @@ Start with DASHER's gameplay and design notes, then the Unity blockout. The rese
 
 ## Process and authorship
 
-This is an evolving university application portfolio. Project documentation distinguishes implemented behavior, automated checks, planned tests and open questions. AI assistance with code, research drafting and documentation is disclosed in the repositories. Design reflections and player observations are added only after the work has actually been done.
+This is an evolving university application portfolio. DASHER's concept, game design and direction are mine. I use AI assistance for implementation, debugging and documentation; each repository explains its scope and credits. Project documentation distinguishes implemented behavior, automated checks, planned tests and open questions. Design reflections and player observations are added only after the work has actually been done.
 
 English project overviews · Türkçe kullanım ve araştırma notları.
