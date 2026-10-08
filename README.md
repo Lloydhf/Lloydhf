@@ -1,38 +1,42 @@
-# Kuzey · Game Design & Development
+# Kuzey · Game Design Portfolio
 
-I build game prototypes and community tools, and document the design decisions behind them. My current focus is movement, level readability and how players learn through play.
+I design game ideas around **movement, route choice and learning through play**, and develop them into playable prototypes with AI-assisted implementation.
 
-## Selected work
+Start with **DASHER** for my game-design direction, or **SHIFT** for a downloadable puzzle platformer. Each project includes its source, design notes and contribution record.
 
-| Project | Design / technical focus | Current stage |
+## Play the projects
+
+| Project | What to explore | Current version |
 | --- | --- | --- |
-| [DASHER: Ascent](https://github.com/Lloydhf/Dasher) | Three tower courses, Updraft movement, alternate routes and recoverable falls | Ascent 0.5 · playable Studio project |
-| [SHIFT / Unity Movement Lab](https://github.com/Lloydhf/unity-movement-lab) | Heavy/light robot movement and traversal puzzles, alongside earlier movement and POLAR RELAY prototypes | Playable Windows prototype and Unity source |
-| [Game Design Research](https://github.com/Lloydhf/game-design-research) | Teaching the first five minutes of a parkour game | Literature-based essay and proposed pilot |
-| [Swiz Community Bot](https://github.com/Lloydhf/swiz-community-bot) | Tickets, event rosters and reliable community workflows | Source with offline tests |
-| [Valorant Community Bot](https://github.com/Lloydhf/valorant-community-bot) | Player statistics, progress feedback and API reliability | Source with offline tests |
+| **[DASHER: Ascent](https://github.com/Lloydhf/Dasher)** · Roblox / Luau | Three competitive towers, Updraft movement and alternate routes. [Design case study](https://github.com/Lloydhf/Dasher/blob/main/docs/PORTFOLIO.md) · [Studio package](https://github.com/Lloydhf/Dasher/blob/main/Dasher-Studio.zip) | **Ascent 0.7** · local Studio build |
+| **[SHIFT — Mass Protocol](https://github.com/Lloydhf/unity-movement-lab)** · Unity / C# | A light/heavy robot, eight puzzle-platform levels and a short three-level tour. [Windows download](https://github.com/Lloydhf/unity-movement-lab/releases/tag/shift-v0.2-2026-10-08) · [Design notebook](https://github.com/Lloydhf/unity-movement-lab/blob/main/docs/DESIGN-NOTEBOOK.md) | **v0.2** · playable prototype |
 
-## How to explore this portfolio
+[![SHIFT v0.2 gameplay capture](https://raw.githubusercontent.com/Lloydhf/unity-movement-lab/main/docs/images/shift-v0.2-gameplay.png)](https://github.com/Lloydhf/unity-movement-lab)
 
-Start with DASHER's gameplay and design notes, then try SHIFT's Windows prototype. The Unity repository also preserves the earlier movement lessons and POLAR RELAY prototype. The research repository connects an onboarding question to a testable study plan; participant testing is still pending. The bots show supporting work on user interactions, persistence and failure handling.
+*SHIFT v0.2 · actual gameplay capture from the October build.*
 
-## Recent work · September 2026
+## Recent iterations
 
-- **DASHER: Ascent 0.5:** Helix, Canopy and Reactor towers; Updraft movement; a garden atrium; voting, spectating and cosmetic progression.
-- **SHIFT:** a robot that switches between heavy and light forms, with two SHIFT levels and documented PlayMode checks.
-- **Swiz:** faster acknowledgement of active-member requests, with a text attachment for long member lists and regression tests.
-- **Research:** a literature-based essay, pilot protocol and reproducible analysis, with implemented prototypes available as potential testbeds. No participant results are claimed.
+- **DASHER:** refined movement and camera behaviour, summit-pad finishes, hold-to-reset controls and NPC dialogue.
+- **SHIFT:** expanded from two to eight levels, with level selection, saved progress, collectibles, stars and weight-driven lifts. A separate **01 → 02 → 08** tour presents a shorter selection.
+- Earlier Unity movement exercises and **POLAR RELAY** remain in the source repository to show the project's development.
 
-**Tools in these projects:** Roblox Studio / Luau · Unity / C# · Node.js / JavaScript · SQLite · Python.
+## Community tools & design research
 
-## Design questions I am exploring
+| Work | Focus | Evidence |
+| --- | --- | --- |
+| [Swiz Community Bot](https://github.com/Lloydhf/swiz-community-bot) | Tickets, moderation, event rosters and clear command responses | Source, setup guide and offline tests |
+| [Valorant Community Bot](https://github.com/Lloydhf/valorant-community-bot) | Player statistics, progress summaries and handling unavailable API data | Source, offline tests and documented limitations |
+| [The First Five Minutes](https://github.com/Lloydhf/game-design-research) | When should a movement game introduce its instructions? | Literature-based working draft, proposed pilot and analysis utility; participant study pending |
 
-- How can a level teach movement without overwhelming a new player?
-- When does restarting feel motivating, and when does it become frustrating?
-- How can progress feedback remain useful and honest when data is incomplete?
+## My role & process
 
-## Process and authorship
+**DASHER's concept, game design and creative direction are mine.** For SHIFT, I provide project direction, preferences and iteration feedback. OpenAI Codex assists with implementation, testing and documentation; repository credits describe the scope, including assisted geometry and artwork.
 
-This is an evolving university application portfolio. DASHER's concept, game design and direction are mine. I use AI assistance for implementation, debugging and documentation; each repository explains its scope and credits. Project documentation distinguishes implemented behavior, automated checks, planned tests and open questions. Design reflections and player observations are added only after the work has actually been done.
+I separate technical verification from player research. Target-player findings and personal design reflections are included when documented, and the research draft is identified as work in progress.
 
-English project overviews · Türkçe kullanım ve araştırma notları.
+**Tools used:** Roblox Studio · Luau · Unity · C# · JavaScript / Node.js · SQLite · Python
+
+English project overviews · Türkçe kullanım rehberleri
+
+*Portfolio updated 8 October 2026.*
