@@ -1,47 +1,36 @@
-# Kuzey · Game Design Portfolio
+# Kuzey · Game design portfolio
 
-I design game ideas around **movement, route choice and learning through play**, and develop them into playable prototypes with AI-assisted implementation.
+I design movement games. In **DASHER**, the player reads a gap at speed. In **SHIFT**, the player can stop and work out which weight will open the way forward.
 
-Start with **DASHER** for my game-design direction, or **SHIFT** for a downloadable puzzle platformer. Each project includes its source, design notes and contribution record.
+**[Open DASHER in Roblox Studio](https://github.com/Lloydhf/Dasher#try-the-current-build)** &nbsp;·&nbsp; **[Download SHIFT for Windows](https://github.com/Lloydhf/unity-movement-lab/releases/tag/shift-v0.2-portable-2026-11-04)**
 
-## Play the projects
+<a href="https://github.com/Lloydhf/Dasher"><img src="https://raw.githubusercontent.com/Lloydhf/Dasher/6e76940cf8486d0f877eab8eb3a4beed8d68a58f/assets/screenshots/crystal-run.png" width="320" alt="DASHER gameplay. The racer faces a line of stepping stones inside Crystal Run."></a>
+<a href="https://github.com/Lloydhf/unity-movement-lab"><img src="https://raw.githubusercontent.com/Lloydhf/unity-movement-lab/4bad06a0cce74582e7b569c6cad1a87b8f2d08c4/docs/images/shift-v0.2-gameplay.png" width="320" alt="SHIFT gameplay. A robot in heavy mode stands at a station beneath a raised platform."></a>
 
-| Project | What to explore | Current version |
-| --- | --- | --- |
-| **[DASHER: Rush](https://github.com/Lloydhf/Dasher)** · Roblox / Luau | Crystal Run: a horizontal parkour race with Dash, Double Jump and coin-based ability upgrades. [Design case study](https://github.com/Lloydhf/Dasher/blob/main/docs/PORTFOLIO.md) · [Studio package](https://github.com/Lloydhf/Dasher/blob/main/Dasher-Studio.zip) | **0.11.2-rush** · local Studio build |
-| **[SHIFT — Mass Protocol](https://github.com/Lloydhf/unity-movement-lab)** · Unity / C# | A light/heavy robot, eight puzzle-platform levels and a short three-level tour. [Windows download](https://github.com/Lloydhf/unity-movement-lab/releases/tag/shift-v0.2-portable-2026-11-04) · [Design notebook](https://github.com/Lloydhf/unity-movement-lab/blob/main/docs/DESIGN-NOTEBOOK.md) | **v0.2** · playable prototype |
+## DASHER · When does a race feel finished?
 
-[![DASHER Rush gameplay capture](https://raw.githubusercontent.com/Lloydhf/Dasher/main/assets/screenshots/crystal-run.png)](https://github.com/Lloydhf/Dasher)
+**Roblox Studio / Luau** · Public build **Rush 0.11.2**
 
-*DASHER Rush · actual Studio gameplay capture, 4 November 2026.*
+I redesigned a vertical tower climb as a short race with Dash and Double Jump. One decision from my design review was to remove the last two jumps and bring the finish 48 studs closer.
 
-## Recent iterations
+In the **local 0.11.4 build**, landing on the final platform or dashing across its front stripe ends the race after all five sections. The next playtest question is whether a new player can tell exactly when they have finished.
 
-- **DASHER:** shifted from vertical towers and Updraft to one focused horizontal course. Recent changes shorten the finish approach, reduce block size and simplify the HUD; Dash and Double Jump are the current movement abilities.
-- **SHIFT:** eight levels, level selection, saved progress, collectibles, stars and weight-driven lifts. A separate **01 → 02 → 08** tour presents a shorter selection. The game remains at v0.2; November updates refresh its presentation and sharing package.
-- **Swiz:** a Turkish/English management panel, team tools and a clearer view of community operations. Third-party foundations and integration work are credited in the repository.
-- Earlier Unity movement exercises and **POLAR RELAY** remain in the source repository to show the project's development.
+[Read the design case study](https://github.com/Lloydhf/Dasher/blob/main/docs/PORTFOLIO.md) · [Get the 0.11.2 Studio package](https://raw.githubusercontent.com/Lloydhf/Dasher/6e76940cf8486d0f877eab8eb3a4beed8d68a58f/Dasher-Studio.zip)
 
-## Community tools & design research
+## SHIFT · One robot, two weights
 
-| Work | Focus | Evidence |
-| --- | --- | --- |
-| [Swiz Community Bot](https://github.com/Lloydhf/swiz-community-bot) | Tickets, moderation, event rosters, team tools and a TR/EN management panel | Source, setup guide, example-data screenshots and offline tests |
-| [Valorant Community Bot](https://github.com/Lloydhf/valorant-community-bot) | Player statistics, progress summaries, rank cards and opt-in tracking | Source, offline tests and documented limits of the experimental local helper |
-| [The First Five Minutes](https://github.com/Lloydhf/game-design-research) | When should a movement game introduce its instructions? | Literature-based working draft, proposed pilot and analysis utility; participant study pending |
+**Unity / C#** · Windows prototype **v0.2**
 
-## Visual study
+Light mode reaches high ledges. Heavy mode breaks panels and lowers lifts. The robot can only change weight at a station. In level 2, you can prepare a bridge on the upper platform before dropping to the floor below.
 
-**[AURA — Blender sword study](https://github.com/Lloydhf/aura-blender-study)** explores a stylized prop, materials, lighting and a five-second turntable. The editable scene, scene-generation script and rendered outputs are included. It is a separate AI-assisted study, with the scope of my direction and Codex's construction work documented; it is not an asset used in SHIFT.
+Choose **Portfolio Tour** for a short route through levels **01 → 02 → 08** of the eight-level campaign.
 
-## My role & process
+[Get the Windows prototype](https://github.com/Lloydhf/unity-movement-lab/releases/tag/shift-v0.2-portable-2026-11-04) · [Read the level design notebook](https://github.com/Lloydhf/unity-movement-lab/blob/main/docs/DESIGN-NOTEBOOK.md)
 
-**DASHER's concept, game design and creative direction are mine.** For SHIFT, I provide project direction, preferences and iteration feedback. OpenAI Codex assists with implementation, testing and documentation; repository credits describe the scope, including assisted geometry and artwork.
+## Research, art and community tools
 
-I separate technical verification from player research. Target-player findings and personal design reflections are included when documented, and the research draft is identified as work in progress.
+- **The First Five Minutes** asks when to teach a movement mechanic. The Turkish essay and proposed pilot compare giving an instruction before play with showing it at the first obstacle. Player testing is pending. [Read the essay](https://github.com/Lloydhf/game-design-research/blob/main/paper/ilk-bes-dakika.md) · [See the pilot plan](https://github.com/Lloydhf/game-design-research/blob/main/study/PROTOCOL.md)
+- **AURA** is a Blender prop study. Its five-second turntable shows the steel blade, brass hilt and turquoise inlay under studio lighting. [View the animation](https://github.com/Lloydhf/aura-blender-study/blob/main/media/AURA-Animation.mp4)
+- **Swiz** brings Discord tickets, teams and event rosters into a Turkish/English panel. The **Valorant bot** turns player records into rank cards and opt-in match updates. The previews use fictional data. [Swiz](https://github.com/Lloydhf/swiz-community-bot) · [Valorant](https://github.com/Lloydhf/valorant-community-bot)
 
-**Tools used:** Roblox Studio · Luau · Unity · C# · Blender · JavaScript / Node.js · SQLite · Python
-
-English project overviews · Türkçe kullanım rehberleri
-
-*Portfolio updated 4 November 2026.*
+**My contribution.** DASHER's concept, game design and creative direction are mine. For SHIFT, I set the direction, proposed the star system and gave feedback on successive builds. I requested the AURA study, and Codex built the scene and animation. The project credits detail AI assistance with code, geometry, testing and documentation, and Swiz credits its third-party foundation.
